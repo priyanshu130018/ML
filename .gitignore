@@ -1,0 +1,65 @@
+# Virtual environments
+.MLvenv/
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Machine learning outputs
+saved_models/
+models/
+checkpoints/
+runs/
+mlruns/
+wandb/
+catboost_info/
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+
+# Local datasets and generated files
+data/raw/
+data/processed/
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+*.sqlite
+*.db
+
+# Logs
+*.log
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
